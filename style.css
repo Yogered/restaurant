@@ -279,3 +279,37 @@ body {
     left: 432px;
 
 }
+/* hover */
+.historyImages:hover .images1 {
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    left: 40px;
+
+    transition: all 0.2s linear;
+}
+
+.historyImages:hover .images2 {
+    position: absolute;
+    z-index: 3;
+    top: -26px;
+    left: 300px;
+
+    transition: all 0.2s linear;
+}
+
+.historyImages:hover .images3 {
+    position: absolute;
+    z-index: 2;
+    top: 46px;
+    left: 560px;
+
+    transition: all 0.2s linear;
+}
+
+/* footer */
+footer {
+    margin-top: 100px;
+    background-color: #656363;
+    height: 20vh;
+}
